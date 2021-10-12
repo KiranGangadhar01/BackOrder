@@ -1,2 +1,10 @@
 .env
 test.py
+
+# Project files, not required for deployment
+Notebook/
+cleaned_Data/
+Model.py
+cleaned_data_x.csv
+cleaned_data_y.csv
+Screenshot (36).png
