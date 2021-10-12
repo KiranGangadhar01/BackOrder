@@ -16,12 +16,14 @@ learning algorithms that’s best fit for the above case.
 I started exploring datasets using pandas, NumPy,matplotlib and seaborn.
 
 ## Data cleaning.
+checking null values, checking outliers, checking imbalance in dataset.
 
 ## Data visualization
 Ploted colleration matrix to get insights about dependend and independed variables.
+making bar graphs, box plot, scatter plot, etc.
 
 ## Model Selection 
-Made many Models
+Made many Models(linear regression, svm, xgboost, Random Forest).
 But selected RandomForest Regressor.
 
 ## Model Dump
@@ -30,7 +32,7 @@ As per selected trained model is dumped to pickled format for app development
 ## Ide used:
 Pycharm
 
-using Flask.
+Using Flask for making UI.
 Database = Casendra_database
 
 # cloud Deployed 
