@@ -7,25 +7,13 @@ import warnings
 warnings.filterwarnings("ignore")
 
 class Preprocessor:
-    """
-        This class shall  be used to clean and transform the data before training.
-        Written By: Vikas
-        ModfiedBy :Shubham Chau
-        addedFunctionality : Changes in File Operations
-        
-    """
+    
     def __init__(self):
         self.logFilePath ="Training_Logs/Datapreprocessing_logs.txt"
         self.logger_object = logger_app()
 
     def remove_columns(self,data,columns):
-        """
-                Method Name: remove_columns
-                Description: This method removes the given columns from a pandas dataframe.
-                Output: A pandas DataFrame after removing the specified columns.
-                On Failure: Raise Exception
-               
-        """
+       
         self.logfile = open(self.logFilePath ,mode='a')
 
         self.logger_object.log(self.logfile, 'Entered the remove_columns method of the Preprocessor class')
